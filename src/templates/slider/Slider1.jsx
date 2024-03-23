@@ -57,28 +57,6 @@ const Slider1 = () => {
                 id="header-nav"
                 className="collapse navbar-collapse justify-content-center"
               >
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-bs-toggle="modal"
-                      data-bs-target="#about"
-                      href="/"
-                    >
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-bs-toggle="modal"
-                      data-bs-target="#contact"
-                      href="/"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-auto col-lg-2 d-flex justify-content-end">

@@ -47,9 +47,7 @@ export const backgroundVideo = videobg;
 
 // Images list you want to show in slider theme in background
 export const sliderImages = [
-  "images/intro-bg-2.jpg",
-  "images/intro-bg-3.jpg",
-  "images/intro-bg-4.jpg",
+  "images/intro-bg-2.jpg"
 ];
 
 // Mailchimp Config (Newsletter)

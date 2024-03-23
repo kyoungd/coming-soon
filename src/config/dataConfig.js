@@ -1,35 +1,36 @@
 // Landing Page Data
 export const landingPageData = {
   coming_soon: "Belgravia Associates, Ltd.",
-  heading: "We are here to help.",
+  heading: "Connecting exceptional talent with executive opportunities",
   notify: {
-    text: "Get notified when we launch new service.",
+    text: "Join our email list.",
     button: "Notify Me",
     placeholder: "Enter Your Email Here...",
   },
 };
 
 // Social Media List
-export const socialMediaData = [
-  {
-    icon: "fab fa-twitter",
-    link: "http://www.twitter.com/",
-    name: "Twitter",
-    class: "social-icons-twitter",
-  },
-  {
-    icon: "fab fa-facebook",
-    link: "http://www.facebook.com/",
-    name: "Facebook",
-    class: "social-icons-facebook",
-  },
-  {
-    icon: "fab fa-instagram",
-    link: "http://www.instagram.com/",
-    name: "Instagram",
-    class: "social-icons-instagram",
-  },
-];
+export const socialMediaData = [];
+// export const socialMediaData = [
+//   {
+//     icon: "fab fa-twitter",
+//     link: "http://www.twitter.com/",
+//     name: "Twitter",
+//     class: "social-icons-twitter",
+//   },
+//   {
+//     icon: "fab fa-facebook",
+//     link: "http://www.facebook.com/",
+//     name: "Facebook",
+//     class: "social-icons-facebook",
+//   },
+//   {
+//     icon: "fab fa-instagram",
+//     link: "http://www.instagram.com/",
+//     name: "Instagram",
+//     class: "social-icons-instagram",
+//   },
+// ];
 
 // About Us Data
 export const aboutData = {

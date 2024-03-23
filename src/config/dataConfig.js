@@ -1,7 +1,7 @@
 // Landing Page Data
 export const landingPageData = {
   coming_soon: "Belgravia Associates, Ltd.",
-  heading: "",
+  heading: "Serving curated private clients with excellence",
   notify: {
     text: "",
     button: "Notify Me",

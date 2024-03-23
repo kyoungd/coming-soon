@@ -8,11 +8,8 @@ import {
   sliderImages,
 } from "../../config/themeConfig";
 import { landingPageData, socialMediaData } from "../../config/dataConfig";
-import { mailChimpUrl } from "../../config/themeConfig";
 import { Tooltip } from "../../components/Tooltip";
 import ContactUsModal from "../../components/ContactUsModal";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
-import SubscribeForm from "../../components/SubscribeForm";
 
 const Slider1 = () => {
   const sliderOptions = {

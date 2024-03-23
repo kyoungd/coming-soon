@@ -90,7 +90,7 @@ export const aboutData = {
 
 // Contact Us data
 export const contactData = {
-  desc: "We launch our new website soon. For Customer Support and Query, Get in touch with us.",
+  desc: "Get in touch with us.",
   support_note: "Send us a note.",
   cards: [
     {

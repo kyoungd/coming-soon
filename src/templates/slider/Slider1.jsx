@@ -8,10 +8,11 @@ import {
   sliderImages,
 } from "../../config/themeConfig";
 import { landingPageData, socialMediaData } from "../../config/dataConfig";
+import { mailChimpUrl } from "../../config/themeConfig";
 import { Tooltip } from "../../components/Tooltip";
-
-import { contactData } from "../../config/dataConfig";
-import ContactForm2 from "../../components/ContactForm2";
+import ContactUsModal from "../../components/ContactUsModal";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import SubscribeForm from "../../components/SubscribeForm";
 
 const Slider1 = () => {
   const sliderOptions = {
@@ -55,6 +56,18 @@ const Slider1 = () => {
                 id="header-nav"
                 className="collapse navbar-collapse justify-content-center"
               >
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#contact"
+                      href="/"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-auto col-lg-2 d-flex justify-content-end">
@@ -123,21 +136,6 @@ const Slider1 = () => {
                   <p className="text-5 text-light mb-3">
                     {landingPageData.notify.text}
                   </p>
-                  {/* Contact Us ========================= */}
-                  <div className="my-auto py-lg-5">
-                    <div className="row bg-light rounded text-center mx-0 py-4 mb-4 mb-lg-0">
-                      <div className="col-11 mx-auto">
-                        <h3 className="fw-600 mb-3 mt-3">Contact Us</h3>
-                        <p className="text-black-50 mb-4">
-                          {contactData.support_note}
-                        </p>
-                        {/* Contact Form */}
-                        <ContactForm2></ContactForm2>
-                        {/* Contact Form end */}
-                      </div>
-                    </div>
-                  </div>
-                  {/* Contact Us End */}
                 </div>
               </div>
             </div>
@@ -154,6 +152,7 @@ const Slider1 = () => {
           </div>
         </section>
       </div>
+      <ContactUsModal />
     </div>
   );
 };

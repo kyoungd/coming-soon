@@ -58,7 +58,7 @@ const ContactUsModal = () => {
   return (
     <div id="contact" className="modal fade" role="dialog" aria-hidden="true">
       <div
-        className="modal-dialog modal-md modal-dialog-centered"
+        className="modal-dialog modal-xl modal-dialog-centered"
         role="document"
       >
         <div className="modal-content">
@@ -76,7 +76,7 @@ const ContactUsModal = () => {
               {contactData.desc}
             </p>
             <div className="row">
-              <div className="col-xl-12">
+              <div className="col-xl-6">
                 {/* Contact Form */}
                 <form
                   id="contact-form"
@@ -146,6 +146,29 @@ const ContactUsModal = () => {
                   </div>
                 </form>
                 {/* Contact Form end */}
+              </div>
+              <div className="col-xl-6 mt-5 mt-xl-0">
+                <div className="row gy-5">
+                  {contactData.cards.length &&
+                    contactData.cards.map((value, index) => (
+                      <div className="col-md-6" key={index}>
+                        <div className="featured-box text-center">
+                          <div className="featured-box-icon text-primary">
+                            <i className={value.icon} />
+                          </div>
+                          <h3 className="text-uppercase fw-600">
+                            {value.title}
+                          </h3>
+                          {value.lines.length &&
+                            value.lines.map((line, i) => (
+                              <p className="mb-0" key={i}>
+                                {line}
+                              </p>
+                            ))}
+                        </div>
+                      </div>
+                    ))}
+                </div>
               </div>
             </div>
           </div>

@@ -17,7 +17,9 @@ const ContactForm3 = ({ isDark = false }) => {
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
         form.current,
-        emailjsConfig.userId
+        {
+          publicKey: emailjsConfig.userId,
+        }
       )
       .then(
         (result) => {

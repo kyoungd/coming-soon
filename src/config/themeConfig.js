@@ -58,7 +58,9 @@ export const mailChimpUrl = `https://gmail.us1.list-manage.com/subscribe/post?u=
 
 // Emailjs Config (Contact Form)
 export const emailjsConfig = {
-  templateId: "template_si6sin9",
-  serviceId: "service_i86k6ms",
-  userId: "c9HsDgGF6tvWyV6AL",
+  templateId: "template_nmvpbnq",
+  serviceId: "service_20v0dnk",
+  userId: "MUwDoYevDFQN8UHQm",
 };
+
+// Emailjs uses PublicKey instead of userId.  I updated the contactForm2 and Form3.

@@ -17,7 +17,10 @@ const ContactUsModal = () => {
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
         form.current,
-        emailjsConfig.userId
+        {
+          publicKey: emailjsConfig.userId,
+        }
+
       )
       .then(
         (result) => {

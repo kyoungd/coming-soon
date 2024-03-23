@@ -1,9 +1,9 @@
 // Landing Page Data
 export const landingPageData = {
   coming_soon: "Belgravia Associates, Ltd.",
-  heading: "Connecting exceptional talent with executive opportunities",
+  heading: "",
   notify: {
-    text: "Join our email list.",
+    text: "",
     button: "Notify Me",
     placeholder: "Enter Your Email Here...",
   },
@@ -91,7 +91,7 @@ export const aboutData = {
 // Contact Us data
 export const contactData = {
   desc: "We launch our new website soon. For Customer Support and Query, Get in touch with us.",
-  support_note: "For Customer Support, Send us a note.",
+  support_note: "Send us a note.",
   cards: [
     {
       icon: "fas fa-map-marker-alt",

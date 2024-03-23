@@ -112,7 +112,7 @@ const Slider1 = () => {
                   </div>
                 )}
                 <div className="col-12 text-center mx-auto">
-                  <h1 className="text-9 text-white bg-danger d-inline-block fw-700 rounded px-3 py-2 mb-4">
+                  <h1 className="text-9 text-white d-inline-block fw-700 rounded px-3 py-2 mb-4">
                     {landingPageData.coming_soon}
                   </h1>
                   <h2 className="text-15 fw-600 text-white mb-4">

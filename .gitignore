@@ -25,6 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
-
-# video files
-.mp4

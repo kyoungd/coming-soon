@@ -1,0 +1,74 @@
+/* =================================== */
+/*  1. Basic Style 
+/* =================================== */
+
+body, html {
+height:100%;
+}
+
+body {
+  background: $body-bg;
+  color: $text-color;
+  font-family: $body-font;
+}
+
+::selection {
+    background: $primary-color;
+    color: #fff;
+    text-shadow: none;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+img {
+  vertical-align: inherit;
+}
+a, a:focus {
+  color: $primary-color;
+  text-decoration: none;
+  @include transition(all .2s ease);
+}
+a:hover, a:active {
+    color: $primary-color-hover;
+    @include transition(all .2s ease);
+	text-decoration: underline;
+}
+
+a:focus, a:active,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+button:focus,
+button:active{
+	outline: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+blockquote {
+  border-width:0 0 0 5px;
+  border-style:solid;
+  border-color:#eee;
+  padding: 10px 20px;
+}
+.rtl blockquote {
+  border-width:0 5px 0 0px;
+}
+
+
+iframe {
+  border: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $title-color;
+}

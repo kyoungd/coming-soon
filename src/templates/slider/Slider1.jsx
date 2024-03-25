@@ -141,9 +141,9 @@ const Slider1 = () => {
               <p className="text-light text-2 mb-2">
                 Copyright © 2024{" "}
                 <a className="fw-600" href="/">
-                  Belgravia Associates, Ltd
+                  Belgravia Associates.
                 </a>
-                . All Rights Reserved.
+                All Rights Reserved.
               </p>
             </footer>
           </div>
